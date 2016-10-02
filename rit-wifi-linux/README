@@ -1,0 +1,10 @@
+This is a script that works but it's simple. It doesn't do smart ps checking
+for wpa_supplicant already running, so make sure you kill that and turn off
+NetworkManager before running this. When I get some time I'll come back to this
+and make it less trash.
+
+You will also need to generate an NTLM hash of your RIT password to do this 
+unless you want to keep a copy of your password in the .conf file.
+
+Put the rit.conf file in /etc/wpa_supplicant before running the script.
+
